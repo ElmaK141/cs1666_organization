@@ -58,13 +58,28 @@ A metroidvania with a focus on ranged combat and movement. The weapons and gadge
 
 * Develop a moving prototype
 * Implement weaponry (Melee and Ranged)
-	* Melee weapon
+	* Melee weapon:
+		* A whip/grappling hook combo that'll serve as a weapon and a tool for traversal
 	* Ranged weapons
+		* A rocket launcher that shoots rockets that can damage enemies and launch the player for added mobility
+		* A precision rifle with high damage and recoil that can serve movement
+		* A pistol that serves as a basic ranged weapon with low damage and knockback but higher fire rate
 * Implement enemy AI
+	* *Behaviors described in AI section below*
+	* Basic roamers
+	* Defensive/Evasive mobs
+	* Chasers
+	* Hunted
 * Implement procedurally generated sections
 * Design the world
+	* 1 boss at the end of the world
+	* 3 primary movement based powerups that expand the world that can be accessed
 * Implement boss AI
 * Implement quest system
+	* Quest givers can give a variety of interesting side quests that challenges the player's skill at movment, combat, and knowledge of the map
+	* The rewards will vary from small stat upgrades (Increased damage, higher max speed, etc...) to key items needed for progression
+		* Quests that hold key items will be distinguished as main quests and not side quests
+	* This will help mitigate the feeling of aimless wandering by sometimes giving the player a solid goal to acheive rather than just exploration
 ...
 
 ## Advanced Topics
